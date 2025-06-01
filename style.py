@@ -17,7 +17,7 @@ import time
 # Configuration
 # API_BASE_URL = "http://localhost:8000"
 # Streamlit
-API_BASE_URL = "https://your-fastapi-app-url.onrender.com"
+API_BASE_URL = "https://kindergarden.onrender.com"
 
 # response = requests.get(f"{API_URL}/your-endpoint")
 
