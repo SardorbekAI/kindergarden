@@ -15,7 +15,12 @@ from typing import Dict, List, Optional, Any
 import time
 
 # Configuration
-API_BASE_URL = "http://localhost:8000"
+# API_BASE_URL = "http://localhost:8000"
+# Streamlit
+API_BASE_URL = "https://your-fastapi-app-url.onrender.com"
+
+# response = requests.get(f"{API_URL}/your-endpoint")
+
 
 # Page configuration
 st.set_page_config(
